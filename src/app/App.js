@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from '../nav/nav';
+import Form from '../form/form';
 
 class App extends Component {
   render() {
     return (
+      <div className="App">
+        <Nav />
+        <h1>HOT or COLD</h1>
+        <Form />
+      </div>
+    );
+  }
+}
+
+export default App;
+
+
+/*
+
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -22,7 +37,5 @@ class App extends Component {
         </header>
       </div>
     );
-  }
-}
 
-export default App;
+*/

@@ -1,0 +1,19 @@
+nav {
+    width: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#what {
+    float: left;
+    text-align: left;
+}
+
+#newgame {
+    text-align: right;
+    left: 0px;
+}

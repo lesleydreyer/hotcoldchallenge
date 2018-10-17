@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+    border: none;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 130%;
+    background-color: navy;
+    text-align: center;
+}
+
+
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#enterGuess {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: 120%;
+    width: 80%;
+}
+
+
+
+#submitGuess {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: 120%;
+    width: 80%;
+} 
