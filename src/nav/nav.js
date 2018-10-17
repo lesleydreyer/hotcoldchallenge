@@ -12,3 +12,21 @@ export default function Nav() {
         </nav>
     );
 }
+
+
+////////////////////
+
+/*
+const links = [{
+    text: 'WHAT?',
+    href: ''
+}, {
+    text: '+NEWGAME',
+    href: ''
+}];
+
+
+ReactDOM.render(
+    <NavigationBar title="HOT or COLD" links={links} />,
+    document.getElementById('root')
+  );*/

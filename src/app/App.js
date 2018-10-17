@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from '../nav/nav';
 import Form from '../form/form';
+import '../guess/numberguesses';
+import '../guess/guesslist';
+import GuessList from '../guess/guesslist';
+import NumberOfGuesses from '../guess/numberguesses';
 
 class App extends Component {
   render() {
@@ -10,6 +14,8 @@ class App extends Component {
         <Nav />
         <h1>HOT or COLD</h1>
         <Form />
+        <NumberOfGuesses />
+        <GuessList />
       </div>
     );
   }

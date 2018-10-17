@@ -1,0 +1,15 @@
+
+#numGuesses {
+    padding: 20px;
+    background-color: navy;
+    color: black;
+    font-size: 130%;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#guessNum {
+    color: goldenrod;
+}

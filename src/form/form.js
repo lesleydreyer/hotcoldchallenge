@@ -11,8 +11,6 @@ export default function Form() {
                 <br />
                 <label for="submitGuess" />
                 <input type="submit" id="submitGuess" value="Guess" />
-                <label for="guessNumber" />
-                <label for="previousGuesses" />
             </fieldset>
         </form>
     );
