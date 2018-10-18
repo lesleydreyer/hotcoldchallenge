@@ -8,6 +8,15 @@ import GuessList from '../guess/guesslist';
 import NumberOfGuesses from '../guess/numberguesses';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentGuess: 0,
+      answer: Math.floor(Math.random()*100)
+    }
+  }
+
+
   render() {
     return (
       <div className="App">
